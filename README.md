@@ -24,6 +24,8 @@ Interestingly this port forwarding does work for the node webserver/middleware u
 Spoilers Alert!?
 ----------------
 
-My notes and documentation, does include my solutions and so there are some potential spoilers.... however as most of the answers now appear to be readibly available on Stackoverflow/Blogs/YouTube there are many better indexed and better documented way to cheat on these exams.
+This repository contains my work, the scripts and json files used throughout these causes. Most of the homework answers are not in this repository (I have all my anwsers in private google docs), but in one or two cases there are some potential spoilers. However as most of the answers now appear to be readibly available on Stackoverflow/Blogs/YouTube there are many better indexed and better documented way to cheat on these exams.
 
-This repository is a record of my work and solutions, which may be of interest for others doing this course... but of course you get out of these courses what you put in ;)  
+This repository is an aid for myself with some of work and the background scripts and json files if and when I want to work through the examples again. 
+
+This may be of interest for others doing this course... but of course you get out of these courses what you put in ;)  
