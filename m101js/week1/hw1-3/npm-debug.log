@@ -1,0 +1,490 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/vagrant/m101js/week1/hw1-3',
+6 verbose install   [ 'consolidate', 'crypto', 'express', 'mongodb', 'swig' ] ]
+7 info preinstall hw1-3@0.0.0
+8 warn package.json consolidate@0.9.1 No repository field.
+9 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping consolidate@~0.9.1 /vagrant/m101js/week1/hw1-3
+12 verbose already installed skipping crypto@~0.0.3 /vagrant/m101js/week1/hw1-3
+13 verbose cache add [ 'express@~3.3.4', null ]
+14 verbose cache add name=undefined spec="express@~3.3.4" args=["express@~3.3.4",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'express@~3.3.4',
+15 verbose parsed url   path: 'express@~3.3.4',
+15 verbose parsed url   href: 'express@~3.3.4' }
+16 verbose cache add name="express" spec="~3.3.4" args=["express","~3.3.4"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '~3.3.4',
+17 verbose parsed url   path: '~3.3.4',
+17 verbose parsed url   href: '~3.3.4' }
+18 verbose addNamed [ 'express', '~3.3.4' ]
+19 verbose addNamed [ null, '>=3.3.4-0 <3.4.0-0' ]
+20 silly lockFile 09d41e23-express-3-3-4 express@~3.3.4
+21 verbose lock express@~3.3.4 /home/vagrant/.npm/09d41e23-express-3-3-4.lock
+22 verbose cache add [ 'mongodb@~1.3.11', null ]
+23 verbose cache add name=undefined spec="mongodb@~1.3.11" args=["mongodb@~1.3.11",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'mongodb@~1.3.11',
+24 verbose parsed url   path: 'mongodb@~1.3.11',
+24 verbose parsed url   href: 'mongodb@~1.3.11' }
+25 verbose cache add name="mongodb" spec="~1.3.11" args=["mongodb","~1.3.11"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '~1.3.11',
+26 verbose parsed url   path: '~1.3.11',
+26 verbose parsed url   href: '~1.3.11' }
+27 verbose addNamed [ 'mongodb', '~1.3.11' ]
+28 verbose addNamed [ null, '>=1.3.11-0 <1.4.0-0' ]
+29 silly lockFile 99033d3f-mongodb-1-3-11 mongodb@~1.3.11
+30 verbose lock mongodb@~1.3.11 /home/vagrant/.npm/99033d3f-mongodb-1-3-11.lock
+31 verbose cache add [ 'swig@~0.14.0', null ]
+32 verbose cache add name=undefined spec="swig@~0.14.0" args=["swig@~0.14.0",null]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'swig@~0.14.0',
+33 verbose parsed url   path: 'swig@~0.14.0',
+33 verbose parsed url   href: 'swig@~0.14.0' }
+34 verbose cache add name="swig" spec="~0.14.0" args=["swig","~0.14.0"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '~0.14.0',
+35 verbose parsed url   path: '~0.14.0',
+35 verbose parsed url   href: '~0.14.0' }
+36 verbose addNamed [ 'swig', '~0.14.0' ]
+37 verbose addNamed [ null, '>=0.14.0-0 <0.15.0-0' ]
+38 silly lockFile a7d16bf6-swig-0-14-0 swig@~0.14.0
+39 verbose lock swig@~0.14.0 /home/vagrant/.npm/a7d16bf6-swig-0-14-0.lock
+40 silly addNameRange { name: 'express', range: '>=3.3.4-0 <3.4.0-0', hasData: false }
+41 silly addNameRange { name: 'mongodb', range: '>=1.3.11-0 <1.4.0-0', hasData: false }
+42 silly addNameRange { name: 'swig', range: '>=0.14.0-0 <0.15.0-0', hasData: false }
+43 verbose url raw swig
+44 verbose url resolving [ 'https://registry.npmjs.org/', './swig' ]
+45 verbose url resolved https://registry.npmjs.org/swig
+46 info trying registry request attempt 1 at 22:44:21
+47 http GET https://registry.npmjs.org/swig
+48 verbose url raw express
+49 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+50 verbose url resolved https://registry.npmjs.org/express
+51 info trying registry request attempt 1 at 22:44:21
+52 verbose etag "C8P2BILNC8XSYG7T3QIDR1VWU"
+53 http GET https://registry.npmjs.org/express
+54 verbose url raw mongodb
+55 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+56 verbose url resolved https://registry.npmjs.org/mongodb
+57 info trying registry request attempt 1 at 22:44:21
+58 verbose etag "6HVGA9IT6F16J9VNSVZU6XM6E"
+59 http GET https://registry.npmjs.org/mongodb
+60 http 304 https://registry.npmjs.org/express
+61 silly registry.get cb [ 304,
+61 silly registry.get   { date: 'Sat, 18 Jan 2014 22:44:22 GMT',
+61 silly registry.get     server: 'Apache',
+61 silly registry.get     connection: 'Keep-Alive',
+61 silly registry.get     'keep-alive': 'timeout=10, max=50',
+61 silly registry.get     etag: '"C8P2BILNC8XSYG7T3QIDR1VWU"',
+61 silly registry.get     vary: 'Accept' } ]
+62 verbose etag express from cache
+63 silly addNameRange number 2 { name: 'express', range: '>=3.3.4-0 <3.4.0-0', hasData: true }
+64 silly addNameRange versions [ 'express',
+64 silly addNameRange   [ '0.14.0',
+64 silly addNameRange     '0.14.1',
+64 silly addNameRange     '1.0.0',
+64 silly addNameRange     '1.0.1',
+64 silly addNameRange     '1.0.2',
+64 silly addNameRange     '1.0.3',
+64 silly addNameRange     '1.0.4',
+64 silly addNameRange     '1.0.5',
+64 silly addNameRange     '1.0.6',
+64 silly addNameRange     '1.0.7',
+64 silly addNameRange     '1.0.8',
+64 silly addNameRange     '2.0.0',
+64 silly addNameRange     '2.1.0',
+64 silly addNameRange     '2.1.1',
+64 silly addNameRange     '2.2.0',
+64 silly addNameRange     '2.2.1',
+64 silly addNameRange     '2.2.2',
+64 silly addNameRange     '2.3.0',
+64 silly addNameRange     '2.3.1',
+64 silly addNameRange     '2.3.2',
+64 silly addNameRange     '2.3.3',
+64 silly addNameRange     '2.3.4',
+64 silly addNameRange     '2.3.5',
+64 silly addNameRange     '2.3.6',
+64 silly addNameRange     '2.3.7',
+64 silly addNameRange     '2.3.8',
+64 silly addNameRange     '2.3.9',
+64 silly addNameRange     '2.3.10',
+64 silly addNameRange     '2.3.11',
+64 silly addNameRange     '2.3.12',
+64 silly addNameRange     '2.4.0',
+64 silly addNameRange     '2.4.1',
+64 silly addNameRange     '2.4.2',
+64 silly addNameRange     '2.4.3',
+64 silly addNameRange     '2.4.4',
+64 silly addNameRange     '2.4.5',
+64 silly addNameRange     '2.4.6',
+64 silly addNameRange     '2.4.7',
+64 silly addNameRange     '2.5.0',
+64 silly addNameRange     '2.5.1',
+64 silly addNameRange     '2.5.2',
+64 silly addNameRange     '2.5.3',
+64 silly addNameRange     '2.5.4',
+64 silly addNameRange     '2.5.5',
+64 silly addNameRange     '2.5.6',
+64 silly addNameRange     '2.5.7',
+64 silly addNameRange     '2.5.8',
+64 silly addNameRange     '2.5.9',
+64 silly addNameRange     '2.5.10',
+64 silly addNameRange     '2.5.11',
+64 silly addNameRange     '3.0.0',
+64 silly addNameRange     '3.0.1',
+64 silly addNameRange     '3.0.2',
+64 silly addNameRange     '3.0.3',
+64 silly addNameRange     '3.0.4',
+64 silly addNameRange     '3.0.5',
+64 silly addNameRange     '3.0.6',
+64 silly addNameRange     '3.1.0',
+64 silly addNameRange     '3.1.1',
+64 silly addNameRange     '3.1.2',
+64 silly addNameRange     '3.2.0',
+64 silly addNameRange     '3.2.1',
+64 silly addNameRange     '3.2.2',
+64 silly addNameRange     '3.2.3',
+64 silly addNameRange     '3.2.4',
+64 silly addNameRange     '3.2.5',
+64 silly addNameRange     '3.2.6',
+64 silly addNameRange     '3.3.0',
+64 silly addNameRange     '3.3.1',
+64 silly addNameRange     '3.3.2',
+64 silly addNameRange     '3.3.3',
+64 silly addNameRange     '3.3.4',
+64 silly addNameRange     '3.3.5',
+64 silly addNameRange     '3.3.6',
+64 silly addNameRange     '1.0.0-beta',
+64 silly addNameRange     '1.0.0-beta2',
+64 silly addNameRange     '1.0.0-rc',
+64 silly addNameRange     '1.0.0-rc2',
+64 silly addNameRange     '1.0.0-rc3',
+64 silly addNameRange     '1.0.0-rc4',
+64 silly addNameRange     '2.0.0-beta',
+64 silly addNameRange     '2.0.0-beta2',
+64 silly addNameRange     '2.0.0-beta3',
+64 silly addNameRange     '2.0.0-rc',
+64 silly addNameRange     '2.0.0-rc2',
+64 silly addNameRange     '2.0.0-rc3',
+64 silly addNameRange     '3.0.0-alpha1',
+64 silly addNameRange     '3.0.0-alpha2',
+64 silly addNameRange     '3.0.0-alpha3',
+64 silly addNameRange     '3.0.0-alpha4',
+64 silly addNameRange     '3.0.0-alpha5',
+64 silly addNameRange     '3.0.0-beta1',
+64 silly addNameRange     '3.0.0-beta2',
+64 silly addNameRange     '3.0.0-beta3',
+64 silly addNameRange     '3.0.0-beta4',
+64 silly addNameRange     '3.0.0-beta6',
+64 silly addNameRange     '3.0.0-beta7',
+64 silly addNameRange     '3.0.0-rc1',
+64 silly addNameRange     '3.0.0-rc2',
+64 silly addNameRange     '3.0.0-rc3',
+64 silly addNameRange     '3.0.0-rc4',
+64 silly addNameRange     '3.0.0-rc5',
+64 silly addNameRange     '3.3.7',
+64 silly addNameRange     '3.3.8',
+64 silly addNameRange     '3.4.0',
+64 silly addNameRange     '3.4.1',
+64 silly addNameRange     '3.4.2',
+64 silly addNameRange     '3.4.3',
+64 silly addNameRange     '3.4.4',
+64 silly addNameRange     '3.4.5',
+64 silly addNameRange     '3.4.6',
+64 silly addNameRange     '3.4.7',
+64 silly addNameRange     '3.4.8' ] ]
+65 verbose addNamed [ 'express', '3.3.8' ]
+66 verbose addNamed [ '3.3.8', '3.3.8' ]
+67 silly lockFile a43a70ac-express-3-3-8 express@3.3.8
+68 verbose lock express@3.3.8 /home/vagrant/.npm/a43a70ac-express-3-3-8.lock
+69 silly lockFile a43a70ac-express-3-3-8 express@3.3.8
+70 silly lockFile a43a70ac-express-3-3-8 express@3.3.8
+71 silly lockFile 09d41e23-express-3-3-4 express@~3.3.4
+72 silly lockFile 09d41e23-express-3-3-4 express@~3.3.4
+73 http 304 https://registry.npmjs.org/mongodb
+74 silly registry.get cb [ 304,
+74 silly registry.get   { date: 'Sat, 18 Jan 2014 22:44:22 GMT',
+74 silly registry.get     server: 'Apache',
+74 silly registry.get     connection: 'Keep-Alive',
+74 silly registry.get     'keep-alive': 'timeout=10, max=50',
+74 silly registry.get     etag: '"6HVGA9IT6F16J9VNSVZU6XM6E"',
+74 silly registry.get     vary: 'Accept' } ]
+75 verbose etag mongodb from cache
+76 silly addNameRange number 2 { name: 'mongodb', range: '>=1.3.11-0 <1.4.0-0', hasData: true }
+77 silly addNameRange versions [ 'mongodb',
+77 silly addNameRange   [ '0.9.4',
+77 silly addNameRange     '0.9.4-4',
+77 silly addNameRange     '0.9.3',
+77 silly addNameRange     '0.9.1',
+77 silly addNameRange     '0.9.2',
+77 silly addNameRange     '0.9.6-7',
+77 silly addNameRange     '0.9.6-8',
+77 silly addNameRange     '0.9.6-9',
+77 silly addNameRange     '0.9.6-10',
+77 silly addNameRange     '0.9.6-11',
+77 silly addNameRange     '0.9.6-12',
+77 silly addNameRange     '0.9.6-13',
+77 silly addNameRange     '0.9.6-14',
+77 silly addNameRange     '0.9.6-15',
+77 silly addNameRange     '0.9.6-16',
+77 silly addNameRange     '0.9.6-17',
+77 silly addNameRange     '0.9.6-18',
+77 silly addNameRange     '0.9.6-19',
+77 silly addNameRange     '0.9.6-20',
+77 silly addNameRange     '0.9.6-21',
+77 silly addNameRange     '0.9.6-22',
+77 silly addNameRange     '0.9.6-23',
+77 silly addNameRange     '0.9.7',
+77 silly addNameRange     '0.9.7-0',
+77 silly addNameRange     '0.9.7-1',
+77 silly addNameRange     '0.9.7-1.1',
+77 silly addNameRange     '0.9.7-1.2',
+77 silly addNameRange     '0.9.7-1.3',
+77 silly addNameRange     '0.9.7-1.4',
+77 silly addNameRange     '0.9.7-2',
+77 silly addNameRange     '0.9.7-2-1',
+77 silly addNameRange     '0.9.7-2-2',
+77 silly addNameRange     '0.9.7-2-3',
+77 silly addNameRange     '0.9.7-2-4',
+77 silly addNameRange     '0.9.7-2-5',
+77 silly addNameRange     '0.9.7-3',
+77 silly addNameRange     '0.9.7-3-1',
+77 silly addNameRange     '0.9.7-3-2',
+77 silly addNameRange     '0.9.7-3-3',
+77 silly addNameRange     '0.9.7-3-4',
+77 silly addNameRange     '0.9.7-3-5',
+77 silly addNameRange     '0.9.8',
+77 silly addNameRange     '0.9.8-1',
+77 silly addNameRange     '0.9.8-2',
+77 silly addNameRange     '0.9.8-3',
+77 silly addNameRange     '0.9.8-4',
+77 silly addNameRange     '0.9.8-5',
+77 silly addNameRange     '0.9.8-6',
+77 silly addNameRange     '0.9.8-7',
+77 silly addNameRange     '0.9.9',
+77 silly addNameRange     '0.9.9-1',
+77 silly addNameRange     '0.9.9-2',
+77 silly addNameRange     '0.9.9-3',
+77 silly addNameRange     '0.9.9-4',
+77 silly addNameRange     '0.9.9-5',
+77 silly addNameRange     '0.9.9-6',
+77 silly addNameRange     '0.9.9-7',
+77 silly addNameRange     '0.9.9-8',
+77 silly addNameRange     '1.0.0',
+77 silly addNameRange     '1.0.1',
+77 silly addNameRange     '1.0.2',
+77 silly addNameRange     '1.1.0-beta',
+77 silly addNameRange     '1.1.0',
+77 silly addNameRange     '1.1.1',
+77 silly addNameRange     '1.1.2',
+77 silly addNameRange     '1.1.3',
+77 silly addNameRange     '1.1.4',
+77 silly addNameRange     '1.1.5',
+77 silly addNameRange     '1.1.6',
+77 silly addNameRange     '1.1.7',
+77 silly addNameRange     '1.1.8',
+77 silly addNameRange     '1.1.9',
+77 silly addNameRange     '1.1.10',
+77 silly addNameRange     '1.1.11',
+77 silly addNameRange     '1.2.0',
+77 silly addNameRange     '1.2.1',
+77 silly addNameRange     '1.2.2',
+77 silly addNameRange     '1.2.3',
+77 silly addNameRange     '1.2.4',
+77 silly addNameRange     '1.2.5',
+77 silly addNameRange     '1.2.6',
+77 silly addNameRange     '1.2.7',
+77 silly addNameRange     '1.2.8',
+77 silly addNameRange     '1.2.9',
+77 silly addNameRange     '1.2.10',
+77 silly addNameRange     '1.2.11',
+77 silly addNameRange     '1.2.12',
+77 silly addNameRange     '1.2.13',
+77 silly addNameRange     '1.2.14',
+77 silly addNameRange     '1.3.0',
+77 silly addNameRange     '1.3.1',
+77 silly addNameRange     '1.3.2',
+77 silly addNameRange     '1.3.3',
+77 silly addNameRange     '1.3.4',
+77 silly addNameRange     '1.3.5',
+77 silly addNameRange     '1.3.6',
+77 silly addNameRange     '1.3.7',
+77 silly addNameRange     '1.3.8',
+77 silly addNameRange     '1.3.9',
+77 silly addNameRange     '1.3.10',
+77 silly addNameRange     '1.3.11',
+77 silly addNameRange     '1.3.12',
+77 silly addNameRange     '1.3.14',
+77 silly addNameRange     '1.3.15',
+77 silly addNameRange     '1.3.17',
+77 silly addNameRange     '1.3.18',
+77 silly addNameRange     '1.3.19',
+77 silly addNameRange     '1.4.0-rc2',
+77 silly addNameRange     '1.3.20',
+77 silly addNameRange     '1.4.0-rc3',
+77 silly addNameRange     '1.3.21',
+77 silly addNameRange     '1.3.22',
+77 silly addNameRange     '1.3.23',
+77 silly addNameRange     '1.4.0-rc4' ] ]
+78 verbose addNamed [ 'mongodb', '1.3.23' ]
+79 verbose addNamed [ '1.3.23', '1.3.23' ]
+80 silly lockFile 130bb479-mongodb-1-3-23 mongodb@1.3.23
+81 verbose lock mongodb@1.3.23 /home/vagrant/.npm/130bb479-mongodb-1-3-23.lock
+82 silly lockFile 130bb479-mongodb-1-3-23 mongodb@1.3.23
+83 silly lockFile 130bb479-mongodb-1-3-23 mongodb@1.3.23
+84 silly lockFile 99033d3f-mongodb-1-3-11 mongodb@~1.3.11
+85 silly lockFile 99033d3f-mongodb-1-3-11 mongodb@~1.3.11
+86 http 200 https://registry.npmjs.org/swig
+87 silly registry.get cb [ 200,
+87 silly registry.get   { date: 'Sat, 18 Jan 2014 22:44:22 GMT',
+87 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+87 silly registry.get     etag: '"AWOBW82B7YCHB47SP3N73DTT"',
+87 silly registry.get     'content-type': 'application/json',
+87 silly registry.get     'content-length': '140922',
+87 silly registry.get     'accept-ranges': 'bytes',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     age: '0',
+87 silly registry.get     'x-served-by': 'cache-am71-AMS',
+87 silly registry.get     'x-cache': 'MISS',
+87 silly registry.get     'x-cache-hits': '0',
+87 silly registry.get     'x-timer': 'S1390085062.112250328,VS0,VE603',
+87 silly registry.get     vary: 'Accept',
+87 silly registry.get     'keep-alive': 'timeout=10, max=50',
+87 silly registry.get     connection: 'Keep-Alive' } ]
+88 silly addNameRange number 2 { name: 'swig', range: '>=0.14.0-0 <0.15.0-0', hasData: true }
+89 silly addNameRange versions [ 'swig',
+89 silly addNameRange   [ '0.1.1',
+89 silly addNameRange     '0.1.2',
+89 silly addNameRange     '0.1.3',
+89 silly addNameRange     '0.1.5',
+89 silly addNameRange     '0.1.6',
+89 silly addNameRange     '0.1.7',
+89 silly addNameRange     '0.1.8',
+89 silly addNameRange     '0.1.9',
+89 silly addNameRange     '0.2.0',
+89 silly addNameRange     '0.2.1',
+89 silly addNameRange     '0.2.2',
+89 silly addNameRange     '0.2.3',
+89 silly addNameRange     '0.3.0',
+89 silly addNameRange     '0.4.0',
+89 silly addNameRange     '0.5.0',
+89 silly addNameRange     '0.6.0',
+89 silly addNameRange     '0.6.1',
+89 silly addNameRange     '0.7.0',
+89 silly addNameRange     '0.8.0',
+89 silly addNameRange     '0.9.0',
+89 silly addNameRange     '0.9.1',
+89 silly addNameRange     '0.9.2',
+89 silly addNameRange     '0.9.3',
+89 silly addNameRange     '0.9.4',
+89 silly addNameRange     '0.10.0',
+89 silly addNameRange     '0.11.0',
+89 silly addNameRange     '0.11.1',
+89 silly addNameRange     '0.11.2',
+89 silly addNameRange     '0.12.0',
+89 silly addNameRange     '0.12.1',
+89 silly addNameRange     '0.13.0',
+89 silly addNameRange     '0.13.1',
+89 silly addNameRange     '0.13.2',
+89 silly addNameRange     '0.13.3',
+89 silly addNameRange     '0.13.4',
+89 silly addNameRange     '0.13.5',
+89 silly addNameRange     '0.14.0',
+89 silly addNameRange     '1.0.0-pre1',
+89 silly addNameRange     '1.0.0-pre2',
+89 silly addNameRange     '1.0.0-pre3',
+89 silly addNameRange     '1.0.0-rc1',
+89 silly addNameRange     '1.0.0-rc2',
+89 silly addNameRange     '1.0.0-rc3',
+89 silly addNameRange     '1.0.0',
+89 silly addNameRange     '1.1.0',
+89 silly addNameRange     '1.2.0',
+89 silly addNameRange     '1.2.1',
+89 silly addNameRange     '1.2.2' ] ]
+90 verbose addNamed [ 'swig', '0.14.0' ]
+91 verbose addNamed [ '0.14.0', '0.14.0' ]
+92 silly lockFile ef70b243-swig-0-14-0 swig@0.14.0
+93 verbose lock swig@0.14.0 /home/vagrant/.npm/ef70b243-swig-0-14-0.lock
+94 warn deprecated swig@0.14.0: v1.0.0 is a complete rewrite of Swig from the ground up. Previous versions are no longer supported
+95 silly lockFile de7776c2-y-npmjs-org-swig-swig-0-14-0-tgz https://registry.npmjs.org/swig/-/swig-0.14.0.tgz
+96 verbose lock https://registry.npmjs.org/swig/-/swig-0.14.0.tgz /home/vagrant/.npm/de7776c2-y-npmjs-org-swig-swig-0-14-0-tgz.lock
+97 verbose addRemoteTarball [ 'https://registry.npmjs.org/swig/-/swig-0.14.0.tgz',
+97 verbose addRemoteTarball   '544bfb3bd837608873eed6a72c672a28cb1f1b3f' ]
+98 silly lockFile de7776c2-y-npmjs-org-swig-swig-0-14-0-tgz https://registry.npmjs.org/swig/-/swig-0.14.0.tgz
+99 silly lockFile de7776c2-y-npmjs-org-swig-swig-0-14-0-tgz https://registry.npmjs.org/swig/-/swig-0.14.0.tgz
+100 silly lockFile ef70b243-swig-0-14-0 swig@0.14.0
+101 silly lockFile ef70b243-swig-0-14-0 swig@0.14.0
+102 silly lockFile a7d16bf6-swig-0-14-0 swig@~0.14.0
+103 silly lockFile a7d16bf6-swig-0-14-0 swig@~0.14.0
+104 error Error: EACCES, mkdir '/home/vagrant/tmp/npm-16842-DcMJMxu8'
+104 error  { [Error: EACCES, mkdir '/home/vagrant/tmp/npm-16842-DcMJMxu8']
+104 error   errno: 3,
+104 error   code: 'EACCES',
+104 error   path: '/home/vagrant/tmp/npm-16842-DcMJMxu8' }
+105 error Please try running this command again as root/Administrator.
+106 error System Linux 3.2.0-23-generic-pae
+107 error command "/usr/bin/node" "/usr/bin/npm" "install"
+108 error cwd /vagrant/m101js/week1/hw1-3
+109 error node -v v0.10.24
+110 error npm -v 1.3.21
+111 error path /home/vagrant/tmp/npm-16842-DcMJMxu8
+112 error code EACCES
+113 error errno 3
+114 error stack Error: EACCES, mkdir '/home/vagrant/tmp/npm-16842-DcMJMxu8'
+115 verbose exit [ 3, true ]
