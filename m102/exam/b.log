@@ -1,0 +1,36 @@
+Sat Jan 25 12:26:32.128 [initandlisten] MongoDB starting : pid=1611 port=27002 dbpath=/vagrant/m102/exam/data/z2 32-bit host=m101p
+Sat Jan 25 12:26:32.129 [initandlisten] 
+Sat Jan 25 12:26:32.129 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Sat Jan 25 12:26:32.129 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Sat Jan 25 12:26:32.129 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Sat Jan 25 12:26:32.129 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Sat Jan 25 12:26:32.129 [initandlisten] 
+Sat Jan 25 12:26:32.129 [initandlisten] db version v2.4.8
+Sat Jan 25 12:26:32.129 [initandlisten] git version: a350fc38922fbda2cec8d5dd842237b904eafc14
+Sat Jan 25 12:26:32.129 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Sat Jan 25 12:26:32.129 [initandlisten] allocator: system
+Sat Jan 25 12:26:32.130 [initandlisten] options: { dbpath: "data/z2", fork: true, logpath: "b.log", oplogSize: 50, port: 27002, replSet: "z", smallfiles: true }
+Sat Jan 25 12:26:32.134 [initandlisten] Assertion: 13651:Couldn't fsync directory '/vagrant/m102/exam/data/z2': errno:22 Invalid argument
+0x8a15dad 0x89eb145 0x89d0ca0 0x89d1256 0x853429e 0x8609b54 0x82c5869 0x82c6245 0x82cd549 0x82cf64c 0xb74974d3 0x82bd541 
+ mongod(_ZN5mongo15printStackTraceERSo+0x2d) [0x8a15dad]
+ mongod(_ZN5mongo10logContextEPKc+0xa5) [0x89eb145]
+ mongod(_ZN5mongo11msgassertedEiPKc+0xc0) [0x89d0ca0]
+ mongod() [0x89d1256]
+ mongod(_ZN5mongo16flushMyDirectoryERKN5boost11filesystem34pathE+0x27e) [0x853429e]
+ mongod(_ZN5mongo15acquirePathLockEb+0x254) [0x8609b54]
+ mongod(_ZN5mongo14_initAndListenEi+0x439) [0x82c5869]
+ mongod(_ZN5mongo13initAndListenEi+0x25) [0x82c6245]
+ mongod() [0x82cd549]
+ mongod(main+0x3c) [0x82cf64c]
+ /lib/i386-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0xb74974d3]
+ mongod() [0x82bd541]
+Sat Jan 25 12:26:32.138 [initandlisten] exception in initAndListen: 13651 Couldn't fsync directory '/vagrant/m102/exam/data/z2': errno:22 Invalid argument, terminating
+Sat Jan 25 12:26:32.138 dbexit: 
+Sat Jan 25 12:26:32.138 [initandlisten] shutdown: going to close listening sockets...
+Sat Jan 25 12:26:32.139 [initandlisten] shutdown: going to flush diaglog...
+Sat Jan 25 12:26:32.139 [initandlisten] shutdown: going to close sockets...
+Sat Jan 25 12:26:32.139 [initandlisten] shutdown: waiting for fs preallocator...
+Sat Jan 25 12:26:32.139 [initandlisten] shutdown: closing all files...
+Sat Jan 25 12:26:32.139 [initandlisten] closeAllFiles() finished
+Sat Jan 25 12:26:32.139 [initandlisten] shutdown: removing fs lock...
+Sat Jan 25 12:26:32.140 dbexit: really exiting now
